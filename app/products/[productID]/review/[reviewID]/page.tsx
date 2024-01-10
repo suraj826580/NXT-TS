@@ -5,7 +5,7 @@ interface params {
 }
 function ReviewID({ params }: { params: params }) {
   const { productID, reviewID } = params;
-  return <div>Review ID</div>;
+  return <div>Review ID with productID</div>;
 }
 
 export default ReviewID;
